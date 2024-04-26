@@ -1,0 +1,19 @@
+* {
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.Title {
+	font-size: 4em;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+.heroContainer {
+	display: flex;
+}
