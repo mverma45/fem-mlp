@@ -1,0 +1,72 @@
+* {
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.Title {
+	font-size: 4em;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+.heroContainer {
+	display: flex;
+}
+
+.heroPara {
+	font-size: 1.25em;
+}
+
+.download,
+.download2,
+.what {
+	border-radius: 5em;
+	background-color: #04aa6d; /* Green */
+	border: none;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.download2,
+.what {
+	background-color: #800080; /* Purple */
+	color: #fff;
+}
+
+.modern {
+	color: #04aa6d; /* Green */
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.meetings {
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.sharing,
+.heroPara {
+	color: #04aa6d; /* Green */
+}
+
+.experience {
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.desktopImages2 img {
+	width: 18rem;
+	height: 20rem;
+	margin: 1rem;
+	border-radius: 1rem;
+	justify-items: center;
+}
