@@ -14,10 +14,6 @@
 	text-align: center;
 }
 
-.heroContainer {
-	display: flex;
-}
-
 .heroPara {
 	font-size: 1.25em;
 }
@@ -68,5 +64,4 @@
 	height: 20rem;
 	margin: 1rem;
 	border-radius: 1rem;
-	justify-items: center;
 }
