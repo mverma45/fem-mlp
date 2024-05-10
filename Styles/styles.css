@@ -3,11 +3,27 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 12px;
+	list-style: none;
 }
 
-.Title {
-	font-size: 4em;
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
+	overflow-x: hidden;
+}
+
+.buttons {
+	display: flex;
+	gap: 1rem;
+	padding-bottom: 15rem;
+}
+
+h1 {
+	max-width: 28rem;
+	font-size: 3.75em;
 }
 
 .logo {
@@ -19,17 +35,23 @@
 }
 
 .download,
-.download2,
 .what {
+	display: flex;
 	border-radius: 5em;
 	background-color: #04aa6d; /* Green */
 	border: none;
 	color: #fff;
 	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
+	font-size: 1.2rem;
+}
+
+.download2 {
+	border-radius: 5em;
+	background-color: #04aa6d; /* Green */
+	border: none;
+	color: #fff;
+	padding: 15px 32px;
+	font-size: 1.2rem;
 }
 
 .download2,
@@ -59,9 +81,20 @@
 	font-weight: 900;
 }
 
-.desktopImages2 img {
-	width: 18rem;
-	height: 20rem;
-	margin: 1rem;
-	border-radius: 1rem;
+.desktopImages {
+	padding-bottom: 5rem;
+}
+
+.desktopImagesImg {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.desktopImagesImgPics {
+	width: 151px;
+	border-radius: 10px;
 }
