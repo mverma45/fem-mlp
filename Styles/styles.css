@@ -61,14 +61,18 @@ h1 {
 }
 
 .modern {
+	padding-top: 5rem;
 	color: #04aa6d; /* Green */
 	font-size: 2rem;
 	text-transform: uppercase;
 }
 
 .meetings {
-	font-size: 3rem;
+	display: flex;
+	width: 100vh;
+	font-size: 5rem;
 	font-weight: 900;
+	margin-left: 14rem;
 }
 
 .sharing,
@@ -76,11 +80,27 @@ h1 {
 	color: #04aa6d; /* Green */
 }
 
-.experience {
+.heroExperience {
+	display: flex;
 	font-size: 3rem;
 	font-weight: 900;
 }
 
+.experience,
+.reliable {
+	min-width: 80vh;
+	font-size: 3.25rem;
+	background-color: aquamarine;
+	color: #fff;
+}
+
+.reliable {
+	display: flex;
+	padding-top: 4rem;
+	font-size: 1.25rem;
+}
+
+/*
 .desktopImages {
 	padding-bottom: 5rem;
 }
@@ -98,3 +118,4 @@ h1 {
 	width: 151px;
 	border-radius: 10px;
 }
+*/
